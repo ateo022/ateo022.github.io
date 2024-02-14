@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(250, 255, 222);
+    padding-left: 30px;
+}
+
+#header {
+    position: relative;
+    text-align: left;
+    padding-top: 40px;
+}
+
+#staindeco {
+    position: absolute;
+    z-index: -1;
+    top: -420px;
+    left: 500px;
+    transform: scale(1.3);
+}
+
+#bodytext {
+    line-height: 30px;
+    width: 75%;
+    z-index: 0;
+    font-size: 20px;
+}
+
+#body11 {
+    padding-top: 15px;
+}
+
+
+#quiz {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+
+}
+
+#secondpage {
+    margin: 0;
+}
+
+#image {
+    justify-content: center;
+    align-items: center;
+}
+
+#saysorry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -80px;
+}
+
+#kopi {
+    
+}
+
+#kopipic {
+    width: 20%;
+    height: auto;
+    /* float: left; */
+}
+
+#body31 {
+   
+}
