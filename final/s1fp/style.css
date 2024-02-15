@@ -1,0 +1,111 @@
+html {
+    background-color: rgb(250, 255, 222);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#navigation {
+    padding-top: 1%;
+    display: flex;
+    gap: 10px;
+}
+
+#header {
+    position: relative;
+    text-align: left;
+    margin-top: -60px;
+}
+
+#stainflex {
+    display: flex;
+    justify-content: end;
+    margin-right: -10%;
+}
+
+#staindeco {
+    position: absolute;
+    z-index: -1;
+    height: 1000px;
+    width: 1000px;
+    object-fit: cover;
+    object-position: 0 0;
+    top: -500px;
+    opacity: 80%;
+}
+
+#kopikaya {
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#quiz {
+    height: 70px;
+    border-radius: 30px/25px;
+    background-color: rgb(50, 172, 85);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    gap: 7px;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: -30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#thirdpage {
+    padding-top: 10%;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#saysorry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -80px;
+}
+
+#basecontent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#contentwrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#fourthpage {
+    padding-top: 10%;
+}
+
+#wrapdrinks {
+    margin-top: 80px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#rec {
+    width: 100;
+    height: 150px;
+    border: 2px solid rgb(20, 8, 1);
+}
