@@ -62,8 +62,8 @@ html {
     margin-bottom: 20px;
 }
 
-#secondpage {
-    margin: 0;
+#thirdpage {
+    padding-top: 10%;
 }
 
 #image {
@@ -78,16 +78,34 @@ html {
     align-items: center;
     margin: -80px;
 }
-#base {
-    align-items: center;
+
+#basecontent {
     display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-#kopi {
-
+#contentwrapper {
+    display: flex;
+    flex-direction: column;
 }
 
-#kopipic {
-    width: 200px;
-    height: auto;
+#fourthpage {
+    padding-top: 10%;
+}
+
+#wrapdrinks {
+    margin-top: 80px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#rec {
+    width: 100;
+    height: 150px;
+    border: 2px solid rgb(20, 8, 1);
 }
