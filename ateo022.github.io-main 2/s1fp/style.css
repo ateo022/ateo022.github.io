@@ -4,10 +4,15 @@ html {
     padding-right: 5%;
 }
 
+#firstpage {
+    padding-top: 10%;
+}
+
 #navigation {
     padding-top: 1%;
     display: flex;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 #header {
@@ -29,7 +34,7 @@ html {
     width: 1000px;
     object-fit: cover;
     object-position: 0 0;
-    top: -450px;
+    top: -500px;
     opacity: 80%;
 }
 
@@ -49,7 +54,6 @@ html {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-bottom: 5%;
     gap: 7px;
 }
 
@@ -79,6 +83,9 @@ html {
     margin: -80px;
 }
 
+#thirdpage {
+    align-content: center;
+}
 #basecontent {
     display: flex;
     flex-direction: row;
