@@ -66,6 +66,12 @@ html {
     margin-bottom: 20px;
 }
 
+#coffeeicon {
+    float:right;
+    margin-right: -5vw;
+    margin-top: -80px;
+}
+
 #thirdpage {
     padding-top: 10%;
 }
