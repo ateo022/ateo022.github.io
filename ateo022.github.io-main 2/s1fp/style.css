@@ -66,8 +66,10 @@ html {
     margin-bottom: 20px;
 }
 
-#webring {
-    align-content: end;
+#coffeeicon {
+    float:right;
+    margin-right: -5vw;
+    margin-top: -80px;
 }
 
 #thirdpage {
