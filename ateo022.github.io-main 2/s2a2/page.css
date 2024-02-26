@@ -1,0 +1,47 @@
+#ashow {
+    display: block;
+    position: absolute;
+}
+
+#ahide {
+    display: none;
+    position: absolute;
+}
+
+#ashow:hover + #ahide {
+    display: block;
+}
+
+
+#bshow {
+    position: absolute;
+    display: block;
+    left: 250px;
+}
+
+#bhide {
+    position: relative;
+    display: none;
+    left: 250px;
+}
+
+#bshow:hover + #bhide {
+    display: block;
+}
+
+
+#cshow {
+    position: absolute;
+    left: 500px;
+}
+
+#chide {
+    position: relative;
+    display: none;
+    left: 500px;
+}
+
+#cshow:hover + #chide {
+    display: block;
+}
+

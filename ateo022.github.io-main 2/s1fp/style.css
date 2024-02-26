@@ -66,6 +66,10 @@ html {
     margin-bottom: 20px;
 }
 
+#webring {
+    align-content: end;
+}
+
 #thirdpage {
     padding-top: 10%;
 }
