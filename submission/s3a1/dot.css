@@ -1,0 +1,16 @@
+body {
+    margin: 0px; 
+    background-color: rgb(237, 212, 212);
+    padding: 30px; 
+}
+
+#button {
+        height: 50px;
+        border-radius: 30px/25px;
+        background-color: rgb(161, 65, 60);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+}
+
