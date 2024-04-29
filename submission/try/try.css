@@ -38,7 +38,7 @@
     width: 20vw;
     animation: enter1 linear;
     animation-timeline: scroll();
-    /* background-color: rgb(7, 49, 35); */
+    background-color: rgb(7, 49, 35);
 }
 
 @keyframes enter1 {
@@ -81,15 +81,15 @@
 @media only screen and (max-width: 1500px) {
     @keyframes reposition2 {
         0% {
-            transform: translate(25vw, 0vh);
+            transform: translate(15vw, 0vh);
         }
 
         10% {
-            transform: translate(12.5vw, 12vh);
+            transform: translate(15vw, 12vh);
         }
 
         100% {
-            transform: translate(12.5vw, -80vh);
+            transform: translate(15vw, -80vh);
         }
     }
 }
@@ -104,12 +104,12 @@
     width: 20vw;
     animation: enter2 linear;
     animation-timeline: scroll();
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
 }
 
 @keyframes enter2 {
     0% {
-        transform: translate(100vw, 0vh);
+        transform: translate(108vw, 0vh);
     }
 
     10% {
@@ -123,7 +123,7 @@
 
 #s1a1 {
     position: absolute;
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 95);
     animation: reposition1 linear;
     animation-timeline: scroll();
 }
@@ -131,11 +131,11 @@
 @media only screen and (min-width: 1500px) {
     @keyframes reposition1 {
         0% {
-            transform: translate(0vw, 0vh);
+            transform: translate(-12.5vw, 0vh);
         }
 
         10% {
-            transform: translate(0vw, 18vh);
+            transform: translate(-12.5vw, 18vh);
         }
 
         100% {
