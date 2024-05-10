@@ -25,11 +25,17 @@
     top: 30%;
 }
 
+.img {
+    position: relative;
+    height: 12vw; 
+    width: auto;
+}
+
 .assignment {
     position: absolute;
     height: 5vw;
     width: 5vw;
-    background-color: rgb(88, 74, 58);
+    /* background-color: rgb(88, 74, 58); */
 }
 
 #s3 {
@@ -38,26 +44,26 @@
     width: 20vw;
     animation: enter1 linear;
     animation-timeline: scroll();
-    background-color: rgb(7, 49, 35);
+    /* background-color: rgb(7, 49, 35); */
 }
 
 @keyframes enter1 {
     0% {
-        transform: translate(-30vw, 0vh);
+        transform: translate(-50vw, 0vh);
     }
 
     10% {
-        transform: translate(70vw, 50vh);
+        transform: translate(50vw, 50vh);
     }
 
     100% {
-        transform: translate(70vw, 50vh);
+        transform: translate(50vw, 50vh);
     }
 }
 
 #s3a2 {
     position: absolute;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     animation: reposition2 linear;
     animation-timeline: scroll();
 }
@@ -65,15 +71,15 @@
 @media only screen and (min-width: 1500px) {
     @keyframes reposition2 {
         0% {
-            transform: translate(25vw, 0vh);
+            transform: translate(15vw, 0vh);
         }
 
         10% {
-            transform: translate(12.5vw, 18vh);
+            transform: translate(15vw, -10vh);
         }
 
         100% {
-            transform: translate(12.5vw, -80vh);
+            transform: translate(0vw, -10vh);
         }
     }
 }
@@ -85,17 +91,18 @@
         }
 
         10% {
-            transform: translate(15vw, 12vh);
+            transform: translate(15vw, -10vh);
         }
 
         100% {
-            transform: translate(15vw, -80vh);
+            transform: translate(15vw, -10vh);
         }
     }
 }
 
 #s3fp {
-    top: 25vw;
+    position: absolute;
+    bottom: 8vw;
 }
 
 #s1 {
@@ -104,26 +111,26 @@
     width: 20vw;
     animation: enter2 linear;
     animation-timeline: scroll();
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 @keyframes enter2 {
     0% {
-        transform: translate(108vw, 0vh);
+        transform: translate(100vw, 0vh);
     }
 
     10% {
-        transform: translate(10vw, 50vh);
+        transform: translate(30vw, 50vh);
     }
 
     100% {
-        transform: translate(10vw, 50vh);
+        transform: translate(30vw, 50vh);
     }
 }
 
 #s1a1 {
     position: absolute;
-    background-color: rgb(43, 226, 95);
+    /* background-color: rgb(43, 226, 95); */
     animation: reposition1 linear;
     animation-timeline: scroll();
 }
@@ -135,11 +142,11 @@
         }
 
         10% {
-            transform: translate(-12.5vw, 18vh);
+            transform: translate(-12.5vw, -10vh);
         }
 
         100% {
-            transform: translate(0vw, -80vh);
+            transform: translate(0vw, -10vh);
         }
     }
 }
@@ -151,11 +158,11 @@
         }
 
         10% {
-            transform: translate(0vw, 12vh);
+            transform: translate(0vw, -10vh);
         }
 
         100% {
-            transform: translate(0vw, -80vh);
+            transform: translate(0vw, -10vh);
         }
     }
 }
@@ -166,7 +173,7 @@
 
 #s1fp {
     left: 15vw;
-    top: 25vw;
+    bottom: 8vw;
 }
 
 #s2 {
@@ -180,15 +187,15 @@
 
 @keyframes enter3 {
     0% {
-        transform: translate(35vw, 95vh);
+        transform: translate(25vw, 95vh);
     }
 
     10% {
-        transform: translate(35vw, 50vh);
+        transform: translate(25vw, 50vh);
     }
 
     100% {
-        transform: translate(35vw, 50vh);
+        transform: translate(25vw, 50vh);
     }
 }
 
@@ -201,7 +208,7 @@
 
 @keyframes calibrate1 {
     0% {
-        transform: translate(-25vw, 0vh);
+        transform: translate(-40vw, 0vh);
     }
 
     10% {
@@ -222,7 +229,7 @@
 
 @keyframes calibrate2 {
     0% {
-        transform: translate(0vw, 0vh);
+        transform: translate(20vw, 0vh);
     }
 
     10% {
@@ -244,15 +251,15 @@
 @media only screen and (min-width: 1500px) {
     @keyframes calibrate3 {
         0% {
-            transform: translate(0vw, 0vh);
+            transform: translate(5vw, 0vh);
         }
 
         10% {
-            transform: translate(0vw, 40vh);
+            transform: translate(5vw, 15vh);
         }
 
         100% {
-            transform: translate(0vw, 40vh);
+            transform: translate(5vw, 15vh);
         }
     }
 }
@@ -264,11 +271,11 @@
         }
 
         10% {
-            transform: translate(0vw, 33vh);
+            transform: translate(5vw, 15vh);
         }
 
         100% {
-            transform: translate(0vw, 33vh);
+            transform: translate(5vw, 15vh);
         }
     }
 }
@@ -285,7 +292,7 @@
 #reading {
     position: relative;
     width: 100vw;
-    height: 200vh;
+    height: 180vh;
     background-color: rgb(190, 10, 10);
     scroll-snap-align: start;
 }
@@ -350,4 +357,10 @@
 
 .response {
     z-index: 2;
+}
+
+#script {
+    position: absolute; 
+    top: -500px;
+    left: 200px;
 }
